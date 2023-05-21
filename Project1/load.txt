@@ -1,0 +1,21 @@
+.separator |
+.import EbayUsers.dat EbayUsers
+update EbayUsers set Location = null where Location = 'NULL';
+update EbayUsers set Country = null where Country = 'NULL';
+
+.import Items.dat Items
+update Items set SellerID = null where SellerID = 'NULL';
+update Items set Name = null where Name = 'NULL';
+
+.import Bids.dat Bids
+update Bids set Time = null where Time = 'NULL';
+update Bids set Amount = null where Amount = 'NULL';
+
+.import Categories.dat Categories
+
+.import AuctionData.dat AuctionData
+update AuctionData set Buy_Price = null where Buy_Price = 'NULL'; 
+update AuctionData set First_Bid = null where First_Bid = 'NULL';
+update AuctionData set Currently = null where Currently = 'NULL';
+update AuctionData set Number_Of_Bids = null where Number_Of_Bids = 'NULL';
+
