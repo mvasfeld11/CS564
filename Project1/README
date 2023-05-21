@@ -1,2 +1,7 @@
-In this project, my partner and I  examined the data and applied the principles of database design that we learned in class in order to implement a good relational schema for it. We  then wrote a Python program to transform the data from its JSON form into SQLite’s load file format, conforming to our relational schema. We created our schema in a SQLite database, loaded our transformed data, and tested it by running some SQL queries over it.
+In this project, my partner and I examined the data
+and applied the principles of database design that we learned in class 
+in order to implement a good relational schema for it.
+We  then wrote a Python program to transform the data from its JSON form into SQLite’s load file format,
+conforming to our relational schema. 
+We created our schema in a SQLite database, loaded our transformed data, and tested it by running some SQL queries over it.
 
